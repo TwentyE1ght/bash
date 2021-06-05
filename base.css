@@ -1,3 +1,5 @@
+/*
+
 *** Indicator list ***
     ***   = Menu
     +     = Item
@@ -20,6 +22,18 @@
     src: url(https://fonts.gstatic.com/s/materialicons/v50/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
 }
 
+/*** User vars ***/
+:root{
+    --bg: url(""); /*Put inside the "" your own image URL*/
+    --bgblackness: #00000055;
+    --bgblur: ;
+    --bgblur-settings: 2em;
+    --bgopacity: 1;
+    --window-border-radius: 0px;
+    --color: #b24848;
+    --coloralt: #24192a;
+    --scrollbar-color: #fff2;
+}
 
 /*** Code  ***/
 
