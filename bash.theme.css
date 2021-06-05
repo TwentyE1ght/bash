@@ -1,0 +1,26 @@
+/**
+ * @name Bash
+ * @description This the original owner, A user, quit making the theme. This is only a updated version of the theme. !!Dark mode is required!!
+ * @author TwentyE1ght#8153
+ * @version 1.1
+ * @source https://github.com/TwentyE1ght/bash
+*/
+
+
+@import " https://twentye1ght.github.io/bash/base.css";
+
+/* Discolored Addon By snapper#0001 & Nyria#4198 */
+@import "https://nyri4.github.io/Discolored/main.css";
+
+/*** User vars ***/
+:root{
+    --bg: url("https://i.redd.it/rhapvehr75171.jpg"); /*Put inside the "" your own image URL*/
+    --bgblackness: #00000055;
+    --bgblur: ;
+    --bgblur-settings: 2em;
+    --bgopacity: 1;
+    --window-border-radius: 0px;
+    --color: #b24848;
+    --coloralt: #24192a;
+    --scrollbar-color: #fff2;
+}
