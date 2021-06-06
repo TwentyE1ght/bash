@@ -6,20 +6,16 @@
  * @source https://github.com/TwentyE1ght/bash
 */
 
-
 @import " https://twentye1ght.github.io/bash/base.css";
-
-/* Discolored Addon By snapper#0001 & Nyria#4198 */
-@import "https://nyri4.github.io/Discolored/main.css";
+@import "https://nyri4.github.io/Discolored/main.css"; /* Discolored Addon By snapper#0001 & Nyria#4198 */
 
 /*** User vars ***/
 :root{
-    --bg: url("https://i.redd.it/rhapvehr75171.jpg"); /*Put inside the "" your own image URL*/
+    --bg: url(""); /*Put inside the "" your own image URL*/
     --bgblackness: #00000055;
-    --bgblur: ;
+    --bgblur: ; /* If you want the bg blur to be the same in the settings remove --bgblur-settings variable */
     --bgblur-settings: 2em;
     --bgopacity: 1;
-    --window-border-radius: 0px;
     --color: #b24848;
     --coloralt: #24192a;
     --scrollbar-color: #fff2;
