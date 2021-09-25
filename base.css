@@ -11,7 +11,7 @@
 @import url("https://custom-avatar-hints.github.io/hints/app/language-hell.css"); /*** Importing ***/
 @font-face { font-family: 'Material Icons'; font-style: normal; font-weight: 400; src: url(https://fonts.gstatic.com/s/materialicons/v50/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2'); }
 /*** User vars ***/
-:root { --bg: url(""); --bgblackness: #00000055; --bgblur: ; --bgblur-settings: 2em; --bgopacity: 1; --window-border-radius: 0px; --color: #b24848; --coloralt: #24192a; --scrollbar-color: #fff2; --settings-user-bg: url(""); }
+:root { --bg: url("https://i.imgur.com/7wGo9Ny.png"); --bgblackness: #00000055; --bgblur: ; --bgblur-settings: 2em; --bgopacity: 1; --window-border-radius: 0px; --color: #b24848; --coloralt: #24192a; --scrollbar-color: #fff2; --settings-user-bg: url(""); }
 /*** Code  ***/
 /* + Glasscord support */
 :root { /* Here you can define properties for use with Glasscord. */
@@ -49,20 +49,6 @@ html:not(.platform-linux) .transparent:not(.maximized) #app-mount::before, html:
 /* + System support */
 /* -+ Window propriets */
 html:not(.platform-linux) .transparent:not(.maximized) .appMount-3lHmkl { border-radius: var(--window-border-radius); }
-/* -+ Windows */
-.wordmarkWindows-1v0lYD { display: none; }
-.typeWindows-1za-n7 { position: absolute; width: calc(100% - 240px - 72px); right: 0; height: 22px; margin-top: 0px; }
-.children-19S4PO { overflow: unset; }
-section.title-3qD0b-.container-1r6BKw.themed-ANHk51 { margin-top: 0px; }
-.platform-win .chat-3bRxxu, section.container-1r6BKw.themed-ANHk51 { margin-top: 24px; overflow: unset; }
-.children-19S4PO .iconWrapper-2OrFZ1, .children-19S4PO .title-29uC1r { position: absolute; top: -30px; }
-.children-19S4PO .title-29uC1r { top: -28px; margin-left: 40px; }
-.container-1r6BKw { height: 78px; }
-html:not(.platform-win) .container-1r6BKw > * { margin-top: 18px; }
-.platform-win .container-1r6BKw { height: 50px; }
-.topic-TCb_qw { margin-bottom: -10px; }
-.toolbar-1t6TWx { margin-bottom: 28px; }
-.libraryHeader-3g95kE:before { box-shadow: none; }
 /* + Servers */
 /* -+ Guilds */
 .expandedFolderBackground-1cujaW {
@@ -75,6 +61,7 @@ html:not(.platform-win) .container-1r6BKw > * { margin-top: 18px; }
   background-color: transparent; }
   .folder-1hbNCn.hover-qTxTR_ {
     background-color: rgba(255, 255, 255, 0.1);}
+.childWrapper-anI2G9 { background-color: #fff2; }
 /* + Sidebar */
 .container-3w7J-x { background: transparent; }
 /* -+ Header */
@@ -134,7 +121,6 @@ html:not(.platform-win) .container-1r6BKw > * { margin-top: 18px; }
 /* --+ Categories */
 .wrapper-CU3qI5 { color: var(--header-secondary); padding-left: 18px; }
 .container-2ax-kl { text-transform: none; font-size: 15px; font-weight: 400; color: var(--header-secondary); }
-.arrow-gKvcEx { display: none; }
 /* --+ Scroller */
 ::-webkit-scrollbar { width: 8px !important; height: 8px !important; }
 ::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece { border-color: transparent !important; background: transparent !important; }
@@ -230,7 +216,7 @@ html:not(.platform-win) .container-1r6BKw > * { margin-top: 18px; }
 /* ---+ Typing */
 .typing-2GQL18 { position: absolute; top: -45px; right: 25px; left: unset; z-index: 1; background: #fff1; padding: 5px; padding-right: 10px; border-radius: 10px; }
 /* --+ Button container (where you click to add reactions n stuff) */
-.wrapper-2aW0bm, .reaction-1hd86g { background: #fff2; backdrop-filter: blur(10px); }
+.wrapper-2aW0bm, .reaction-1hd86g { background: #fff2; }
 .reaction-1hd86g:hover { background: #fff3; border-color: transparent; }
 .reaction-1hd86g.reactionMe-wv5HKu { background: #fff4; border-color: transparent; }
 .container-3npvBV { transition: opacity 300ms; }
@@ -442,10 +428,10 @@ html:not(.platform-linux) .transparent:not(.maximized) .layer-2KE1M9, html:not(.
 /* ---+ Note */
 .textarea-2r0oV8 { transition: background .2s; }
 .textarea-2r0oV8::placeholder { color: #fff; }
-.textarea-2r0oV8:focus { background: #000a; }
+.textarea-2r0oV8:focus { background: #fff1; }
 .userInfoSectionHeader-CBvMDh { display: none; }
 /* ---+ Connections */
-.connectedAccount-36nQx7 { border: none; background: #0006; border-radius: 7px; }
+.connectedAccount-2Jb-Z0 { border: none; background: #fff2; border-radius: 7px; }
 /* ---+ Mutual Servers */
 .listRow-hutiT_ { color: #fff; }
 .listName-3w10cx { font-size: 17px; font-weight: 400; }
@@ -591,8 +577,24 @@ input.inputDefault-_djjkz.input-cIJ7To { background-color: transparent !importan
 .qualitySettingsContainer-1gOtRJ { padding: 8px; background: #fff2; border: none; }
 .select-2fjwPw { margin-top: 0px; }
 /* --+ User card*/
-.background-1QDuV2 { background: none !important; }
-.accountProfileCard-1XCH88 { background: #fff2; border-radius: 15px; background-size: cover; background-repeat: no-repeat; background-image: var(--settings-user-bg); background-position: center; }
+.avatar-1uQSZT{
+    border: none;
+    background: none;
+    left: 24px;
+    top: 16px;
+}
+.settingsBanner-15-pZk{
+    display: none;
+}
+.userInfo-iCloHO{
+    top: 16px;
+}
+.background-1QDuV2{
+    margin: 24px 16px 16px;
+}
+.accountProfileCard-1XCH88 { background:none; }
+.accountProfileCard-1XCH88::before { content: ""; position: absolute; height: 100%; width: 100%; background: var(--settings-user-bg); background-color: #fff2; background-repeat: no-repeat; background-size: cover; background-position: center center; z-index: -1; border-radius: 16px;}
+.accountProfileCard-1XCH88::after { content: ""; position: absolute; top: 0; right: 0; width: 100%; height: 100%; background: var(--settings-user-bgblackness); z-index: -1; backdrop-filter: blur(var(--settings-user-bgblur)); }
 .fieldList-21DyL8 { background: transparent; }
 .fieldList-21DyL8 .button-38aScr { background: transparent; }
 /* -+ Buttons */
@@ -608,7 +610,7 @@ input.inputDefault-_djjkz.input-cIJ7To { background-color: transparent !importan
 .lookOutlined-3sRXeN.colorBrand-3pXr91 { border-color: var(--color); color: var(--color); }
 .lookGhost-2Fn_0-.colorBrand-3pXr91 { background: transparent; color: var(--color); }
 .theme-dark .watchButton-2SbJEo, .theme-dark .newPopoutActivityStyles button, button.button-2IFFQ4.button-38aScr.lookOutlined-3sRXeN.button-uXr0L2.buttonSize-AQY2mE.fullWidth-1orjjo.grow-q77ONN, button.button-2IFFQ4.iconButton-3ucJ7a.button-38aScr.lookOutlined-3sRXeN.button-uXr0L2.buttonSize-AQY2mE.iconButtonSize-8raSoG.grow-q77ONN, .theme-dark .addGamePopout-2RY8Ju { background: #fff2; backdrop-filter: blur(2em); border: none; }
-.colorable-1bkp8v.primaryDark-3mSFDl { background: #fff1; backdrop-filter: blur(1em); }
+.colorable-1bkp8v.primaryDark-3mSFDl { background: #0004; }
 .colorable-1bkp8v.primaryDark-3mSFDl:hover { background: #fff2; }
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 { background: #fff2; backdrop-filter: blur(1em); }
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:active, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover { background: #fff1; }
@@ -630,7 +632,7 @@ button.customSwatch-1axV7B.swatch-3mFIiP.defaultSwatch-2nDSvP.button-38aScr.look
 /* -+ Version */
 .info-1VyQPT .colorMuted-HdFt4q:nth-last-child(1)::after { content: "\a Bash v2 version " var(--version); white-space: pre; text-transform: none; }
 /* + Tooltips */
-:root .tooltip-2QfLtc { backdrop-filter: blur(10px); text-align: center; font-weight: 400; border-radius: 7px; box-shadow: unset; background: #fff2; }
+:root .tooltip-2QfLtc { backdrop-filter: blur(1em); text-align: center; font-weight: 400; border-radius: 7px; box-shadow: unset; background: rgba(255, 255, 255, 0.03); }
 .glasscord .tooltip-2QfLtc { backdrop-filter: none !important; background: #0008; }
 .tooltipPointer-3ZfirK { display: none; }
 :root .tooltipBlack-PPG47z { background: #000a; }
@@ -647,3 +649,88 @@ button.customSwatch-1axV7B.swatch-3mFIiP.defaultSwatch-2nDSvP.button-38aScr.look
 .theme-dark .progress-1IcQ3A { background-color: #fff2; }
 .container-3PXSwK { border-radius: 12px; }
 .theme-dark .bar-2Qqk5Z { background: #fff2; }
+/* TOO LAZY TO SORT :/ */
+/* chat */
+.messageAttachment-1aDidq{
+    box-shadow: var(--elevation-high);
+}
+.embedFull-2tM8--{
+    box-shadow: var(--elevation-high);
+}
+.cursorDefault-331ZcI{
+    box-shadow: var(--elevation-high);
+}
+.embedWrapper-lXpS3L{
+    box-shadow: var(--elevation-high);
+}
+.markup-2BOw-j code, .textContainer-C0szpm, .modalTextContainer-ITvzbi, .languageSelector-2LVJrh{
+    box-shadow: var(--elevation-high);
+}
+
+.childWrapper-anI2G9{
+    background-color: #fff2;
+}
+
+/* embed invite */
+.theme-dark .invite-18yqGF{
+    background: #fff2;
+    backdrop-filter: blur(2em);
+    border: none;
+    box-shadow: var(--elevation-high);
+}
+
+/* Blur reduction for preformance / ctrl + f these */
+.activityUserPopout-2yItg2{
+    padding: 0px 0px 16px 0px;
+}
+
+.userPopout-xaxa6l{
+    box-shadow: var(--elevation-high);
+}
+
+
+/* Animations */
+:root .outer-1AjyKL.active-1xchHY, :root .outer-1AjyKL.interactive-3B9GmY:hover{
+    transition: ease-in-out .2s;
+}
+.peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover{
+    transition: ease-in-out .2s;
+}
+
+:root .tooltip-2QfLtc{
+    background: rgba(255, 255, 255, 0.03);
+    transition: ease .1s;
+    backdrop-filter: blur(1em);
+}
+
+.standardSidebarView-3F1I7i { backdrop-filter: blur(var(--bgblur-settings)); transition: ease-in-out 0.2s; }
+
+
+/* user modal */
+:root .root-1gCeng{
+    box-shadow: var(--elevation-high) !important;
+}
+/* banner */
+.profileBanner-33-uE1, .banner-2QYc2d{
+    background-color: transparent !important; 
+}
+/* Avatar*/
+.avatar-AvHqJA{
+    background-color: transparent;
+    border: none;
+}
+/*body*/
+.body-r6_QPy, .topSection-y3p-_D{
+    background-color: transparent;
+}
+
+.userInfoSection-q_35fn+.userInfoSection-q_35fn {
+    border-top: none;
+}
+
+
+/* screen share */
+.scroller-2ymjU1{
+    background-color: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(1em);
+}
