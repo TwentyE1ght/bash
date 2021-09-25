@@ -2,20 +2,11 @@
  * @name Bash
  * @description A Beutiful theme with many blurs and adjustable background. !!Dark mode is required!! 
  * @author TwentyE1ght#8153
- * @version 1.2
+ * @version 1.1
  * @source https://github.com/TwentyE1ght/bash
 */
 /* 
 - This the original owner, A user, quit making the theme. This is only a updated version of the theme. 
-- Recommended wallpapers
-    https://i.imgur.com/oRM6bbJ.jpg
-    https://i.imgur.com/XxOSM26.jpg
-    https://i.imgur.com/hExHT8a.jpg
-    https://i.imgur.com/ApyrLJa.png
-- Recommended settings user background
-    https://i.imgur.com/jrqYzOx.gif
-    https://i.imgur.com/b0S7pGV.gif
-    https://i.imgur.com/21yiWnL.jpg
 */
 @import "https://twentye1ght.github.io/bash/base.css";
 @import "https://nyri4.github.io/Discolored/main.css"; /* Discolored | Addon | By snapper#0001 & Nyria#4198 */
@@ -25,7 +16,7 @@
 
 :root{
     /* Variables */ 
-    --bg: url("https://preview.redd.it/wj8tj7riame71.png?width=3840&format=png&auto=webp&s=1ce5080e4d283c3f7507312e05358100879de8ed"); /* Put inside the "" your own image URL | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+    --bg: url(""); /* Put inside the "" your own image URL | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
     --bgblackness: #00000055; /* Default: #00000055 */
     --bgblur:  ; /* If you want the bg blur to be the same in the settings, remove --bgblur-settings variable | Default: None */
     --bgblur-settings: 2em;       /* Default: 2em */
@@ -33,7 +24,7 @@
     --color: #b24848;           /* Default: #b24848 */
     --coloralt: #24192a;        /* Default: #24192a */
     --scrollbar-color: #fff2;   /* Default: #fff2 */
-    --settings-user-bg: url("https://i.imgur.com/jrqYzOx.gif");  /* Put inside the "" your own image URL | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+    --settings-user-bg: url("");  /* Put inside the "" your own image URL | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
     
     /* BlurpleRecolor | Addon | Variables */
     --accentcolor:			88,101,242;		/*	blurple		-	default:	88,101,242		*/
