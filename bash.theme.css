@@ -16,7 +16,7 @@
 
 :root{
     /* Variables */ 
-    --bg: url(""); /* Put inside the "" your own image URL | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+    --bg: url(""); /* Put inside the "" your own image URL | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) | Default: "https://i.imgur.com/7wGo9Ny.png" */
     --bgblackness: #00000055; /* Default: #00000055 */
     --bgblur:  ; /* If you want the bg blur to be the same in the settings, remove --bgblur-settings variable | Default: None */
     --bgblur-settings: 2em;       /* Default: 2em */
@@ -25,6 +25,9 @@
     --coloralt: #24192a;        /* Default: #24192a */
     --scrollbar-color: #fff2;   /* Default: #fff2 */
     --settings-user-bg: url("");  /* Put inside the "" your own image URL | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+    --settings-user-bgblackness: #00000055; /* Default: #00000055 */
+    --settings-user-bgblur: 0px ; /* If you want the bg blur to be the same in the settings, remove --bgblur-settings variable | Default: 8px */
+
     
     /* BlurpleRecolor | Addon | Variables */
     --accentcolor:			88,101,242;		/*	blurple		-	default:	88,101,242		*/
