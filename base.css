@@ -65,10 +65,16 @@ html:not(.platform-win) .container-1r6BKw > * { margin-top: 18px; }
 .libraryHeader-3g95kE:before { box-shadow: none; }
 /* + Servers */
 /* -+ Guilds */
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G, .childWrapper-anI2G9 { background: #fff2 !important; color: #fff; }
-#app-mount .guilds-1SWlCJ [class*=expandedFolderBackground] { background: transparent; }
-.folderIconWrapper-1_bOZe { background-color: #fff2 !important; }
-#app-mount .guilds-1SWlCJ [class*=folder] { background: transparent; }
+.expandedFolderBackground-1cujaW {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 16px 16px 24px 24px; }
+  .expandedFolderBackground-1cujaW + .listItem-GuPuDH .svg-1X37T1 {
+    filter: none; }
+
+.folder-1hbNCn {
+  background-color: transparent; }
+  .folder-1hbNCn.hover-qTxTR_ {
+    background-color: rgba(255, 255, 255, 0.1);}
 /* + Sidebar */
 .container-3w7J-x { background: transparent; }
 /* -+ Header */
@@ -260,7 +266,7 @@ html:not(.platform-win) .container-1r6BKw > * { margin-top: 18px; }
 /* -+ Members */
 .selected-aXhQR6 .layout-2DM8Md { background: #fff2 !important; }
 .layout-2DM8Md { border-radius: 10px; transition: all 200ms; }
-.clickable-1JJAn8:hover .layout-2DM8Md { background: #fff2; backdrop-filter: blur(4px); }
+.clickable-1JJAn8:hover .layout-2DM8Md { background: #fff2; }
 .glasscord .clickable-1JJAn8:hover .layout-2DM8Md { backdrop-filter: none; }
 /* -+ Follow */
 .wrapper-39oAo3 { background: #fff2; backdrop-filter: blur(1em); }
@@ -294,7 +300,7 @@ html:not(.platform-win) .container-1r6BKw > * { margin-top: 18px; }
 .container-7Unqij { background: #fff1; }
 /* --+ Friends */
 .peopleListItem-2nzedh { border-top: none; }
-.peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover { border-radius: 32px; background: #fff2; backdrop-filter: blur(20px); }
+.peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover { border-radius: 32px; background: #fff2; }
 .glasscord .peopleListItem-2nzedh.active-rhSpJJ, .glasscord .peopleListItem-2nzedh:hover { backdrop-filter: none; }
 .actionButton-uPB8Fs { background: transparent; color: #fff; }
 .actionButton-uPB8Fs.highlight-Lf97TE { background: transparent; }
@@ -317,7 +323,7 @@ section.section-2gLsgF, .separator-XqIyoz { background: transparent !important; 
 /* --+ Header */
 :root .header-2BwW8b, .headerNormal-1l1Znk, .headerNormal-1mX3KY { background: transparent; max-width: 215px; min-width: 215px; }
 .headerTop-2y3V6H { background: transparent !important; border: transparent; }
-.activityUserPopout-2yItg2 { background: transparent; padding: 0px 16px 16px 16px; }
+.activityUserPopout-2yItg2 { background: transparent; padding: 0px 0px 16px 0px; }
 .headerText-1HLrL7 { text-transform: unset; font-size: 13px; }
 .headerName-fajvi9, .headerTagUsernameNoNickname-2_H881 { font-weight: 400; }
 .setIdentityLink-3lcnXW { display: none; }
