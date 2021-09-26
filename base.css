@@ -295,7 +295,7 @@ html:not(.platform-linux) .transparent:not(.maximized) .appMount-3lHmkl { border
 section.section-2gLsgF, .separator-XqIyoz { background: transparent !important; }
 .nowPlayingColumn-2sl4cE, .container-lRFx4q { background: transparent; }
 .header-13Cw0- { text-transform: none; font-size: 13px; }
-:root .wrapper-3D2qGf { background: #fff2; backdrop-filter: blur(20px); border-color: transparent; border-radius: 8px; }
+:root .wrapper-3D2qGf { background: #fff2; backdrop-filter: blur(20px); border-color: transparent; border-radius: 8px; box-shadow: var(--elevation-high) ;}
 :root.glasscord .wrapper-3D2qGf { backdrop-filter: none; }
 :root .outer-1AjyKL.active-1xchHY, :root .outer-1AjyKL.interactive-3B9GmY:hover { background: #fff1; transition: ease-in-out .2s; }
 :root .inset-3sAvek { background: transparent; }
