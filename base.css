@@ -398,7 +398,7 @@ html:not(.platform-linux) .transparent:not(.maximized) .layer-2KE1M9, html:not(.
 .container-2dqNWc { background: #fff2; backdrop-filter: blur(2em); border-radius: 12px; }
 .container-2dqNWc::-webkit-scrollbar-thumb { display: none; }
 /* --+ Header and body */
-:root .root-1gCeng { transform: unset !important; opacity: 1 !important; background: transparent; box-shadow: none; }
+:root .root-1gCeng { transform: unset !important; opacity: 1 !important; background: transparent; box-shadow: none !important; }
 /* --+ Footer */
 :root .footer-2gL1pp { background: transparent; box-shadow: unset; }
 /* -+ Powercord Cutie */
